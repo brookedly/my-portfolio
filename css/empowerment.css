@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* BODIES and Nav Bar */
+
+#empowerment {
+  font-family: 'Montserrat', sans-serif; 
+}
+
+/* @Navigation Bar */
+
+#navigation .navbar-nav { 
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#navigation .navbar-nav li {
+  display: inline-block;
+  float: none;
+}
+
+#navigation .navbar-nav li > a {
+  color: black;
+   padding-left: 45px;
+    padding-right: 45px;
+}
+
+/* @Empowerment Page */
+.punchline {
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.punchline hr {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+
+.empowerment-element {
+  padding-top: 5px;
+  padding-bottom: 45px;
+}
+
+.empowerment-element img {
+  width: 500px;
+}
+
+.empowerment-element-img {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.empowerment-element-caption {
+  font-size: 1em;
+}
+
+/* @Footer */
+footer { 
+  font-size: .8em; margin: 40px; color: #999; 
+}
+footer .content { 
+  display: inline; float: right;
+}
+
+footer a { 
+  margin-left: 30px; color: #777; 
+}
+
+footer a:visited { 
+    color: #777; 
+}
+
+footer a:hover { 
+  color: #000; 
+}
+
+
+
+/* --------------------------------------------------
+              Media Queries 
+  --------------------------------------------------- */
+
+@media screen and (min-width: 384px) {
+    .empowerment-element img {
+        width: 320px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.82em;
+        width: 325px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .empowerment-element img {
+        width: 340px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.84em;
+        width: 345px;
+    }
+}
+
+@media screen and (min-width: 535px) {
+    .empowerment-element img {
+        width: 350px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.85em;
+        width: 355px;
+    }
+}
+
+@media screen and (min-width: 570px) {
+    .empowerment-element img {
+        width: 360px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.86em;
+        width: 365px;
+    }  
+}
+
+@media screen and (min-width: 620px){
+    .empowerment-element img {
+        width: 380px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.88em;
+        width: 385px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 384px){
+    /* @Hamburger Menu */
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      padding: 15px;
+    }
+    .line {
+      border-bottom: 4px solid #bbb;
+      width: 35px;
+      margin-bottom: 6px;
+    }
+    .line:last-child {
+      margin-bottom: 0px;
+    }
+
+    nav li {
+      width: 100%;
+    }
+    nav img {
+      display: none;
+    }
+    .navbar-nav {
+      height: 0;
+      overflow: hidden;
+    }
+    .open {
+      height: 100px;
+    }   
+}
+
+@media screen and (min-width: 800px){
+    .empowerment-element img {
+        width: 440px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.94em;
+        width: 445px;
+    }
+}
+@media screen and (min-width: 860px){
+    .empowerment-element img {
+        width: 460px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.96em;
+        width: 465px;
+    }
+}
+@media screen and (min-width: 920px){
+    .empowerment-element img {
+        width: 480px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.98em;
+        width: 485px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .empowerment-element img {
+        width: 500px;
+    }
+    .empowerment-element-caption {
+        font-size: 1em;
+        width: 505px;
+    }
+}
+
+

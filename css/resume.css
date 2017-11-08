@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Nav Bar*/
+header {
+  font-family: 'Montserrat', sans-serif; 
+}
+
+#navigation .navbar-nav { 
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#navigation .navbar-nav li {
+  display: inline-block;
+  float: none;
+}
+
+#navigation .navbar-nav li > a {
+  color: black;
+   padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+/* @Resume */
+#resume-body {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.inner {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.tagline {    
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.4em;
+    padding: 10px 10px 10px 10px;
+}
+
+.tagline-languages {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.right {
+    float: right;
+}
+
+.skill {
+    border: 1px solid #50a9d1;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: auto;
+    font-size: 11px;
+    display: inline-block;
+    line-height: 1.33333em;
+    padding: 7px 18px;
+    margin-top: 0.8em;
+    border-radius: 8px;
+}
+
+.section-tagline {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.4em;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #CEC8C8;
+}
+
+.class-link {
+  color: black;
+}
+.class-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* @View My Resume Button and Scroll Up Toggle */
+#scrollUp {
+  padding-left: 40px;
+  float: right;
+  width: 28px;
+  height: 28px;
+}
+
+
+/* @Footer */
+
+footer { font-size: .8em; margin: 40px; color: #999; }
+footer .content { display: inline; float: right;}
+
+footer a { margin-left: 30px; color: #777; }
+
+footer a:visited { color: #777; }
+footer a:hover { color: #000; }
+
+
+/* @Media Queries */
+@media screen and (max-width: 768px) and (min-width: 384px){
+    /* @Hamburger Menu */
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      padding: 15px;
+    }
+    .line {
+      border-bottom: 4px solid #bbb;
+      width: 35px;
+      margin-bottom: 6px;
+    }
+    .line:last-child {
+      margin-bottom: 0px;
+    }
+
+    nav li {
+      width: 100%;
+    }
+    nav img {
+      display: none;
+    }
+    .navbar-nav {
+      height: 0;
+      overflow: hidden;
+    }
+    .open {
+      height: 100px;
+    }   
+}
+
+
