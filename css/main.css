@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Cuprum');
 /* BODIES and Nav Bar */
+body {
+
+  /*background-image: url("images/lake.jpg") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  /*Used below the Ultimate CSS Gradient Generator*/
+  background: -webkit-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%);
+
+}
+
 #home {
   font-family: 'Montserrat', sans-serif;
 }
@@ -24,31 +35,45 @@
 
 #navigation .navbar-nav li > a {
   color: black;
-   padding-left: 45px;
-    padding-right: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 /* @About Page */
+.title {
+  letter-spacing: 0.3em;
+}
+
+.location {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
 #about {
   padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about-title > h1 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  letter-spacing: 0.2em;
 }
 
 #about-introduction-picture img {
-  border-radius: 50%;
   padding-left: 50px;
   padding-right: 50px;
   float: left;
+  border-radius: 50%;
 }
 
-#about-body-opening {
-  font-family: 'Cuprum', sans-serif;
-}
-
-#about-body-text {
+.about-body-text {
   padding-right: 25px;
 }
 
-#about-body-text a {
+.about-body-text a {
   text-decoration: none;
 }
 
@@ -155,18 +180,24 @@ div#work .project-thumb:hover .overlay {
 
 /* @Footer */
 footer { 
-  font-size: .8em; margin: 40px; color: #999; 
+  font-size: .8em; 
+  margin: 40px; 
+  /*color: #999; */
+  color: white;
 }
 footer .content { 
   display: inline; float: right;
 }
 
 footer a { 
-  margin-left: 30px; color: #777; 
+  margin-left: 30px; 
+  /*color: #777; */
+  color: white;
 }
 
 footer a:visited { 
-    color: #777; 
+  /*color: #777; */
+  color: white;
 }
 
 footer a:hover { 
@@ -178,7 +209,8 @@ footer a:hover {
 /* --------------------------------------------------
               Media Queries 
   --------------------------------------------------- */
-@media screen and (max-width: 768px) and (min-width: 384px){
+
+@media screen and (max-width: 768px) and (min-width: 320px){
     /* @Hamburger Menu */
     .hamburger {
       display: block;
@@ -209,10 +241,9 @@ footer a:hover {
     }   
 }
 
-
 @media screen and (max-width: 480px) {
     #about-introduction-picture img  {
-         width: 235px;
+         width: 250px;
     }
 }
 
@@ -241,7 +272,7 @@ footer a:hover {
     }
     #about-body-opening h1 {
       color:purple;
-    }  
+    }
 }
 
 @media screen and (min-width: 680px){
@@ -277,7 +308,7 @@ footer a:hover {
     }
     #about-body-opening h1 {
       color:green;
-    }
+    }    
     #banner-text p {
       color: green;
       font-size: 0.8em;
