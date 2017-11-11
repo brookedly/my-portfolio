@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+#projects {
+/*  font-family: 'Montserrat', sans-serif;
+*/  font-family: 'Montserrat', serif;
+}
+
+/* @Navigation Bar */
+
+
+#navigation .navbar-nav { 
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#navigation .navbar-nav li {
+  display: inline-block;
+  float: none;
+}
+
+#navigation .navbar-nav li > a {
+  color: black;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+/*  Banner and Banner Caption */
+/*div#banner .overlay-text {
+  position: absolute;
+  top: 49%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 39px;
+}
+*/
+
+
+/* @Project Section */
+section {
+  text-align: center;
+}
+
+.portfolio-intro {
+  background-color: #e0e0e0;
+  /*font-family: 'EB Garamond';*/
+  padding-top: 55px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.portfolio-intro h1 {
+  font-size: 35px;
+}
+
+.portfolio-intro p {
+  font-size: 18px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+
+/* Background Colors for Each Section */
+
+
+/*.beautybae {
+  background-color:#fdca96;
+}
+
+.memalloc {
+  background-color: #fd9696;
+}
+
+.othello {
+  background-color: #cafd96;
+}
+
+.mid {
+  background-color:
+}
+
+.sanjose {
+  background-color: #9696fd;
+}
+
+.irvine {
+  background-color: #fdfd96;
+
+
+}*/
+
+.container {
+  display: inline-block;
+}
+
+#item {
+  padding-top: 50px;
+  padding-bottom: 65px;
+}
+
+.row {
+  position: relative;
+}
+
+.description {
+  letter-spacing: 0.5px;  
+}
+
+section#item .project-image-o img{
+  opacity: 0.8;
+}
+
+section#item .project-image-sj img{
+  opacity: 0.9;
+}
+
+
+
+/* Skills Embelishing */
+.tools-used-item {
+  border: 1px solid #50a9d1;
+  margin-right: 10px;
+  /*text-transform: uppercase;*/
+  font-weight: 500;
+  width: auto;
+  font-size: 11px;
+  display: inline-block;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+  border-radius: 8px;
+}
+
+/* @Footer */
+footer { 
+  font-size: .8em; 
+  margin: 40px; 
+  color: #999; 
+}
+footer .content { 
+  display: inline; float: right;
+}
+
+footer a { 
+  margin-left: 30px; 
+  color: #777; 
+}
+
+footer a:visited { 
+  color: #777; 
+}
+
+footer a:hover { 
+  color: #000; 
+}
+
+/* --------------------------------------------------
+              Media Queries 
+  --------------------------------------------------- */
+
+@media screen and (max-width: 768px) and (min-width: 320px){
+    /* @Hamburger Menu */
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      padding: 15px;
+    }
+    .line {
+      border-bottom: 4px solid #bbb;
+      width: 35px;
+      margin-bottom: 6px;
+    }
+    .line:last-child {
+      margin-bottom: 0px;
+    }
+
+    nav li {
+      width: 100%;
+    }
+    nav img {
+      display: none;
+    }
+    .navbar-nav {
+      height: 0;
+      overflow: hidden;
+    }
+    .open {
+      height: 100px;
+    }  
+
+    section#item .project-image-bb img{
+      width: 360px;
+    } 
+
+    section#item .project-image-o img{
+      width: 300px;
+    }
+
+    section#item .project-image-sj img{
+      width: 305px;
+    }
+
+    section#item .project-image-i img{
+      width: 315px;
+    }
+
+}
+
+/* Addresses Responsiveness for the footer on small screens */
+@media screen and (max-width: 400px) and (min-width: 320px){
+    footer {
+      font-size: 7.15px;
+    }
+}
+
+@media screen and (max-width: 520px) and (min-width: 320px){
+  
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 521px){
+ 
+}
+
+
+@media screen and (min-width: 768px){
+    section#item img {
+      width: 300px;
+    }
+    section#item .project-image-bb img{
+      width: 400px;
+    }
+    
+}
+@media screen and (min-width: 860px){
+    section#item img {
+      width: 305px;
+    }
+    section#item .project-image-bb img{
+      width: 450px;
+    }
+    
+}
+@media screen and (min-width: 920px){
+    section#item .project-image-bb img{
+      width: 500px;
+    }
+   
+}
+
+@media screen and (min-width: 1000px){
+    /*section#item img {
+      width: 25%;
+      height: 25%;
+
+    }*/
+    section#item .project-image-bb img{
+      width: 550px;
+    }
+
+}
