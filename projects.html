@@ -8,14 +8,14 @@
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.gif" />
 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/project.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="js/bootstrap.js"></script>
     <script src="js/bootstrap-transition.js"></script>
 </head>
 
 <body>
-	
 	<div id = "projects">	
 		<nav id="navigation" class="navbar">
 			<a class="hamburger">
@@ -32,105 +32,142 @@
       		</ul>   
 		</nav>
 
-	<section id = "item">
+	<section>
 		<div id ="banner">
 			<div id = "project-banner-img">
-				<img class="img-responsive" src="images/project-thumb3.jpg">
+				<img class="img-responsive" src="images/project-banner2.jpg">
 			</div>
-			<div class="overlay-text">
+			<!-- <div class="overlay-text">
 				<div id="banner-text">
 				<hr>
-					<p><em>My work as a Computer Science student</em></p>
+					<p>My work as a Computer Science student</p>
+					<strong>MY PORTFOLIO</strong></p> 
+				<hr>
 				</div>
-				<div id="portfolio-text"> 
-					<strong>MY PORTFOLIO</strong></p> <hr>
-				</div>
-			</div>
+			
+			</div> -->
 	    	
 		</div>
+	</section>
 
-  		<div class="portfolio-intro">
+	<section class = "intro">
+		<div class="portfolio-intro">
   			
 			<h1><strong>Developer + Writer</strong></h1>
 			<p>My portfolio is widely based on the material I have completed throughout my educational career. Below you'll find a selection of some of my most recent projects that showcase the type of topics I have worked closely with. As well as a couple of articles I've written in my spare time.</p>
   			
   		</div> 
-
 	</section>
+	
 
+	<section class ="mid" id="item">
+		<h2>Projects</h2>
+	</section>
 
 	<!-- List of Coding Projects -->
-
-	<figure class="row">
-			<a href="fitness.html">
-				<img src="images/main-project.png" class="large-5 columns"/>
-				<figcaption class="large-7 columns">
-					<h3>Fitness Tracker <strong>Mobile App</strong></h3>
-					<p>Strategy, UX Design, UI Design</p>
-				</figcaption>
-			</a>
-		</figure>
-
-
-
-	<section id = "code-project">
-		<div class ="title">
-			<p class="tagline">Projects</p>
-		</div>
-		<div class="section-content">
-			<div class = "project">
-				<div class="project-image"><img src="images/main-project.png"></div>
-				<div class="project-name"><b>BeautyBae</b></div>
-				<p class="description">Upper division Computer Science project course. Built a beauty based E-Commerce website with my group for our project based course CS 122B: Projects in Databases and Web Applications. Designed the user interace. However myself and my teammates had liitle to no web programming experience. Worked with MySQL to load data, Java (Servlets, Ajax, Database Connections, and more), Tomcat to launch our website and much more. </p>
-				<div class = "tools-used">
-					<span class="tools-used-item">Java</span>
-					<span class="tools-used-item">MySQL</span>
-					<span class="tools-used-item">HTML</span>
-					<span class="tools-used-item">CSS</span>
-					<span class="tools-used-item">JavaScript</span>
-					<span class="tools-used-item">JQuery</span>
-					<span class="tools-used-item">Tomcat</span>
-					<span class="tools-used-item">AWS</span>
-				</div>
-			</div>
-			<div class = "project">
-				
-			</div>
-			<div class = "project">
-				
-			</div>
-			<div class = "project">
-				
-			</div>
-
-		</div>	
-	</section>
-
-	<section id = "other-project">
-		<div class="title">
-			<p class="tagline">Other Projects</p>
-		</div>
-		<div class="section-content">
-			<div class = "project">
-				<div class="project-name">
-					<a href="https://spoonuniversity.com/place/the-50-best-places-to-eat-in-san-jose-for-every-meal" target="_blank"><b>50 Places to Eat in San Jose Before You Die</b></a>
-				</div>
-				<p class="description">Paying homage to my hometown San Jose, California - this is an ultimate guide to San Jose eateries organized from breakfast to dessert.</p>
-			</div>
-			<div class = "project">
-				<div class="project-name">
-					<a href="https://spoonuniversity.com/place/7-best-lunches-around-uc-irvine-10-dollars" target="_blank"><b>7 Places to Eat Near UC Irvine for Under $10</b></a>
+	<section class="beautybae" id="item">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+					<div class="project-image-bb col-lg-6 col-md-8 col-sm-10 col-xs-10">
+						<img src="images/main-project.png" alt="Beauty Bae Project" />
+						<h3>BeautyBae</h3>
+						<h5>Web Application Project</h5>	
+						<p class="description">Upper division Computer Science project course. Built a beauty based E-Commerce website with my group for our project based course CS 122B: Projects in Databases and Web Applications. Designed the user interace. However myself and my teammates had liitle to no web programming experience. Worked with MySQL to load data, Java (Servlets, Ajax, Database Connections, and more), Tomcat to launch our website and much more.
+						</p>	
+						<div class = "tools-used">
+							<span class="tools-used-item">Java</span>
+							<span class="tools-used-item">MySQL</span>
+							<span class="tools-used-item">HTML</span>
+							<span class="tools-used-item">CSS</span>
+							<br>
+							<span class="tools-used-item">JavaScript</span>
+							<span class="tools-used-item">JQuery</span>
+							<span class="tools-used-item">Tomcat</span>
+							<span class="tools-used-item">AWS</span>
+						</div>
 					</div>
-				<p class="description">The key to delicious eats on a college budget.</p>
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
 			</div>
-
 		</div>
-
-
-
 	</section>
 
-	<hr>
+	<section class="othello" id="item">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+					<div class="project-image-o col-lg-6 col-md-8 col-sm-10 col-xs-10 ">
+						<img src="images/reversi.png"/>						
+						<h3>Othello</h3>
+						<h5>Course Program</h5>	
+						<p class="description">Simple text adventure game called Dungeon which takes in a file that describes the layout of the dungeon and how they are connected. As a player you may specify which direction to move and the console will or will not grant your request.
+						</p>	
+						<div class = "tools-used">
+							<span class="tools-used-item">Python</span>
+						</div>
+					</div>
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="memalloc" id = "item">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+					<div class="project-image-ma col-lg-6 col-md-8 col-sm-10 col-xs-10">
+						<!-- <img src="images/reversi.png"/> -->
+						<h3>Memory Allocator</h3>
+						<h5>Course Program</h5>	
+						<p class="description">Designed a memory allocator using heap - that will organize data as an implicit free list. Basic functions include allocate, free, blocklist, writeheap, printheap, printheader, and quit.
+						</p>	
+						<div class = "tools-used">
+							<span class="tools-used-item">C</span>
+							<span class="tools-used-item">Xcode</span>
+						</div>
+					</div>
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sanjose" id="item">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+					<div class="project-image-sj col-lg-6 col-md-8 col-sm-10 col-xs-10">
+						<img src="images/zonarosa.jpg"/>
+				
+						<h3>50 Places to Eat in San Jose Before You Die</h3>
+						<h5>Spoon University</h5>
+						<p class="description">Paying homage to my hometown San Jose, California - this is an ultimate guide to San Jose eateries organized from breakfast to dessert.
+						</p>	
+					</div>
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>	
+			</div>
+		</div>
+	</section>
+
+
+	<section class="irvine" id="item"> 
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+					<div class="project-image-i col-lg-6 col-md-8 col-sm-10 col-xs-10">
+						<img src="images/veggiegrill.png"/>
+						<!-- <div class="overlay"><a href="https://spoonuniversity.com/place/7-best-lunches-around-uc-irvine-10-dollars" target="_blank">View Project</a></div> -->
+				
+						<h3>7 Places to Eat Near UC Irvine for Under $10</h3>
+						<h5>Spoon University</h5>
+						<p class="description">The key to delicious eats while on a college budget.
+						</p>	
+					</div>
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+			</div>
+		</div>
+	</section>
+
+
 
 		<div id = "footer"> 
 			<footer>
@@ -151,8 +188,6 @@
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src = "js/main.js"></script>
 </body>
 </html>
