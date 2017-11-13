@@ -27,7 +27,6 @@ header {
     padding-right: 45px;
 }
 
-
 /* @Resume */
 #resume-body {
   padding-left: 17px;
@@ -46,7 +45,6 @@ header {
 
 .tagline-languages {
   padding-top: 10px;
-  padding-bottom: 0px;
 }
 
 .right {
@@ -56,13 +54,12 @@ header {
 .skill {
     border: 1px solid #50a9d1;
     margin-right: 10px;
-    text-transform: uppercase;
     font-weight: 500;
     width: auto;
     font-size: 11px;
     display: inline-block;
     line-height: 1.33333em;
-    padding: 7px 18px;
+    padding: 7px 17px;
     margin-top: 0.8em;
     border-radius: 8px;
 }
@@ -85,12 +82,34 @@ header {
 
 
 
-/* @View My Resume Button and Scroll Up Toggle */
+/* @View My Resume Button and Scroll Up Toggle aquired from SARA VIEIRA */
 #scrollUp {
   padding-left: 40px;
   float: right;
-  width: 28px;
-  height: 28px;
+  width: 29px;
+  height: 29px;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+#scrollUp:hover {
+  animation: bounce 1s;
 }
 
 
@@ -136,5 +155,3 @@ footer a:hover { color: #000; }
       height: 100px;
     }   
 }
-
-
