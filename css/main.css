@@ -144,7 +144,9 @@ div#work .project-thumb > img {
   width: 360px;
 }
 
-div#work .row-centered { text-align:center; }
+div#work .row-centered { 
+  text-align:center; 
+}
 
 .article-image {
   display: block;
@@ -205,7 +207,6 @@ footer a:hover {
 }
 
 
-
 /* --------------------------------------------------
               Media Queries 
   --------------------------------------------------- */
@@ -239,76 +240,49 @@ footer a:hover {
     .open {
       height: 100px;
     }   
+
+    #about-introduction-picture {
+      text-align: center;
+    }
+
+    .about-body-text p {
+      padding-top: 50px;
+    }
+
 }
 
-@media screen and (max-width: 480px) {
-    #about-introduction-picture img  {
-         width: 250px;
+/* Addresses Responsiveness for the footer on small screens */
+@media screen and (max-width: 400px) and (min-width: 320px){
+    .contact-info a {
+      font-size: 7.15px;
     }
-}
 
-@media screen and (max-width: 500px) {
-    #about-introduction-picture img  {
-         width: 235px;
+    footer {
+      font-size: 7.15px;
     }
-    #about-body-opening h1 {
-      color:pink;
-    }
-}
-
-@media screen and (min-width: 570px) {
-    #about-introduction-picture img  {
-         width: 250px;
-         float: center;
-    }
-    #about-body-opening h1 {
-      color:brown;
-    }
-}
-
-@media screen and (min-width: 620px){
-    #about-introduction-picture img  {
-         width: 275px;
-    }
-    #about-body-opening h1 {
-      color:purple;
+    .greeting {
+      color: red;
     }
 }
 
-@media screen and (min-width: 680px){
+@media screen and (max-width: 520px) and (min-width: 320px){
     #about-introduction-picture img  {
          width: 300px;
-    }
-    #about-body-opening h1 {
-      color:blue;
-    }
-    #banner-text p{
-      color: purple;
-    }
-    
+    }    
 }
 
-@media screen and (min-width: 720px) {
+
+@media screen and (max-width: 767px) and (min-width: 521px){
     #about-introduction-picture img  {
          width: 325px;
     }
-    #about-body-opening h1 {
-      color:blue;
-    }
-    #banner-text p {
-      color: blue;
-      font-size: 0.72em;
-    }
-    
 }
 
-@media screen and (min-width: 800px){
+
+@media screen and (min-width: 768px){
     #about-introduction-picture img  {
          width: 350px;
-    }
-    #about-body-opening h1 {
-      color:green;
-    }    
+    }   
     #banner-text p {
       color: green;
       font-size: 0.8em;
@@ -319,9 +293,6 @@ footer a:hover {
     #about-introduction-picture img  {
          width: 375px;
     }
-    #about-body-opening h1 {
-      color:yellow;
-    }
     #banner-text p {
       color: yellow;
       font-size: .85em;
@@ -331,9 +302,6 @@ footer a:hover {
 @media screen and (min-width: 920px){
     #about-introduction-picture img  {
          width: 400px;
-    }
-    #about-body-opening h1 {
-      color:orange;
     }
     #banner-text p {
       color: orange;
@@ -347,12 +315,6 @@ footer a:hover {
          width: 425px;
          text-align: left;
     }
-    #about-body-opening h1 {
-      color:tan;
-      
-    }
-    #about-body-opening h5 {
-    }
     #banner-text p {
       color: red;
     }
@@ -362,7 +324,4 @@ footer a:hover {
     #about-introduction-picture img  {
          width: 425px;
     }
-    #about-body-opening h1 {
-      color:red;
 }
-
