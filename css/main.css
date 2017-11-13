@@ -260,9 +260,6 @@ footer a:hover {
     footer {
       font-size: 7.15px;
     }
-    .greeting {
-      color: red;
-    }
 }
 
 @media screen and (max-width: 520px) and (min-width: 320px){
@@ -284,7 +281,7 @@ footer a:hover {
          width: 350px;
     }   
     #banner-text p {
-      color: green;
+  
       font-size: 0.8em;
     }
     
@@ -294,7 +291,7 @@ footer a:hover {
          width: 375px;
     }
     #banner-text p {
-      color: yellow;
+     
       font-size: .85em;
     }
     
@@ -304,7 +301,7 @@ footer a:hover {
          width: 400px;
     }
     #banner-text p {
-      color: orange;
+   
       font-size: 0.9em;
     }
    
@@ -314,9 +311,6 @@ footer a:hover {
     #about-introduction-picture img  {
          width: 425px;
          text-align: left;
-    }
-    #banner-text p {
-      color: red;
     }
 }
 
