@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 #projects {
-/*  font-family: 'Montserrat', sans-serif;
-*/  font-family: 'Montserrat', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* @Navigation Bar */
@@ -24,19 +23,6 @@
   padding-right: 45px;
 }
 
-/*  Banner and Banner Caption */
-/*div#banner .overlay-text {
-  position: absolute;
-  top: 49%;
-  left: 38%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-  font-size: 39px;
-}
-*/
-
-
 /* @Project Section */
 section {
   text-align: center;
@@ -46,7 +32,7 @@ section {
   background-color: #e0e0e0;
   /*font-family: 'EB Garamond';*/
   padding-top: 55px;
-  padding-bottom: 70px;
+  padding-bottom: 65px;
   text-align: center;
 }
 
@@ -60,40 +46,13 @@ section {
   padding-right: 80px;
 }
 
-
-/* Background Colors for Each Section */
-
-
-/*.beautybae {
-  background-color:#fdca96;
-}
-
-.memalloc {
-  background-color: #fd9696;
-}
-
-.othello {
-  background-color: #cafd96;
-}
-
-.mid {
-  background-color:
-}
-
-.sanjose {
-  background-color: #9696fd;
-}
-
-.irvine {
-  background-color: #fdfd96;
-
-
-}*/
-
 .container {
   display: inline-block;
 }
 
+.mid {
+  padding-top: 40px;
+}
 #item {
   padding-top: 50px;
   padding-bottom: 65px;
@@ -239,6 +198,9 @@ footer a:hover {
 
 /* Addresses Responsiveness for the footer on small screens */
 @media screen and (max-width: 400px) and (min-width: 320px){
+    .contact-info a {
+      font-size: 7.15px;
+    }
     footer {
       font-size: 7.15px;
     }
