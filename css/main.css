@@ -44,9 +44,14 @@ body {
   letter-spacing: 0.3em;
 }
 
+.subtitle {
+  text-align: center;
+}
+
 .location {
   padding-top: 20px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 
@@ -60,6 +65,7 @@ body {
   padding-top: 50px;
   padding-bottom: 25px;
   letter-spacing: 0.2em;
+  text-align: center;
 }
 
 #about-introduction-picture img {
@@ -281,7 +287,7 @@ footer a:hover {
          width: 350px;
     }   
     #banner-text p {
-  
+      color: green;
       font-size: 0.8em;
     }
     
@@ -291,7 +297,7 @@ footer a:hover {
          width: 375px;
     }
     #banner-text p {
-     
+      color: yellow;
       font-size: .85em;
     }
     
@@ -301,7 +307,7 @@ footer a:hover {
          width: 400px;
     }
     #banner-text p {
-   
+      color: orange;
       font-size: 0.9em;
     }
    
@@ -311,6 +317,9 @@ footer a:hover {
     #about-introduction-picture img  {
          width: 425px;
          text-align: left;
+    }
+    #banner-text p {
+      color: red;
     }
 }
 
