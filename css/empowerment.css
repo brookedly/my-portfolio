@@ -102,57 +102,6 @@ footer a:hover {
 /* --------------------------------------------------
               Media Queries 
   --------------------------------------------------- */
-
-@media screen and (min-width: 384px) {
-    .empowerment-element img {
-        width: 320px;
-    }
-    .empowerment-element-caption {
-        font-size: 0.82em;
-        width: 325px;
-    }
-}
-
-@media screen and (min-width: 500px) {
-    .empowerment-element img {
-        width: 340px;
-    }
-    .empowerment-element-caption {
-        font-size: 0.84em;
-        width: 345px;
-    }
-}
-
-@media screen and (min-width: 535px) {
-    .empowerment-element img {
-        width: 350px;
-    }
-    .empowerment-element-caption {
-        font-size: 0.85em;
-        width: 355px;
-    }
-}
-
-@media screen and (min-width: 570px) {
-    .empowerment-element img {
-        width: 360px;
-    }
-    .empowerment-element-caption {
-        font-size: 0.86em;
-        width: 365px;
-    }  
-}
-
-@media screen and (min-width: 620px){
-    .empowerment-element img {
-        width: 380px;
-    }
-    .empowerment-element-caption {
-        font-size: 0.88em;
-        width: 385px;
-    }
-}
-
 @media screen and (max-width: 768px) and (min-width: 320px){
     /* @Hamburger Menu */
     .hamburger {
@@ -182,6 +131,66 @@ footer a:hover {
     .open {
       height: 100px;
     }   
+}
+
+/* Addresses Responsiveness for the footer on small screens */
+@media screen and (max-width: 400px) and (min-width: 320px){
+    .contact-info a {
+      font-size: 7.15px;
+    }
+
+    footer {
+      font-size: 7.15px;
+    }
+
+    .empowerment-element img {
+        width: 320px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.82em;
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 520px) and (min-width: 401px){
+    .empowerment-element img {
+        width: 340px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.84em;
+        width: 350px;
+    }  
+}
+
+
+@media screen and (min-width: 521px) {
+    .empowerment-element img {
+        width: 350px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.85em;
+        width: 355px;
+    }
+}
+
+@media screen and (min-width: 570px) {
+    .empowerment-element img {
+        width: 360px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.86em;
+        width: 365px;
+    }  
+}
+
+@media screen and (min-width: 620px){
+    .empowerment-element img {
+        width: 380px;
+    }
+    .empowerment-element-caption {
+        font-size: 0.88em;
+        width: 385px;
+    }
 }
 
 @media screen and (min-width: 800px){
