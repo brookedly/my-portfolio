@@ -155,3 +155,18 @@ footer a:hover { color: #000; }
       height: 100px;
     }   
 }
+
+/* Addresses Responsiveness for the footer on small screens */
+@media screen and (max-width: 400px) and (min-width: 320px){
+    .contact-info a {
+      font-size: 7.15px;
+    }
+
+    footer {
+      font-size: 7.15px;
+    }
+
+    i {
+      font-size: 11px;
+    }
+}
