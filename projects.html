@@ -10,6 +10,7 @@
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/project.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="js/bootstrap.js"></script>
     <script src="js/bootstrap-transition.js"></script>
@@ -37,15 +38,7 @@
 			<div id = "project-banner-img">
 				<img class="img-responsive" src="images/project-banner2.jpg">
 			</div>
-			<!-- <div class="overlay-text">
-				<div id="banner-text">
-				<hr>
-					<p>My work as a Computer Science student</p>
-					<strong>MY PORTFOLIO</strong></p> 
-				<hr>
-				</div>
 			
-			</div> -->
 	    	
 		</div>
 	</section>
@@ -92,15 +85,38 @@
 		</div>
 	</section>
 
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+					<div class="col-lg-6 col-md-8 col-sm-10 col-xs-10">
+						<img id ="webportThumb" src="images/websiteThumb.png">						
+						<h3><strong>Website Portfolio</strong></h3>
+						<h5>INF 133 User Interaction Software</h5>	
+						<p class="description">Starting from scratch, I curated a visual portfolio of my work using web development techniques taught in class. I followed a user focused approach to gauge which features users would expect as well as conducted user interviews on my first design using the feedback to strength my design. Some resources I've used throughout the development process include FreeCodeCamp, W3Schools, and YouTube. View project source code <a target = "_blank" href="https://github.com/brookedly/my-portfolio">here</a>. 
+						<br><br><a href="portfolio133.html">View Portfolio Analysis</a>
+						</p>
+						<div class = "tools-used">
+							<span class="tools-used-item">HTML</span>
+							<span class="tools-used-item">CSS</span>
+							<span class="tools-used-item">JavaScript</span>
+						</div>	
+					</div>
+				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+			</div>
+		</div>
+				
+	</section>
+
 	<section class="othello" id="item">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
 					<div class="project-image-o col-lg-6 col-md-8 col-sm-10 col-xs-10 ">
-						<img src="images/reversi.png"/>						
+						<!-- <img src="images/reversi.png"/>	 -->					
 						<h3><strong>Othello</strong></h3>
 						<h5>Course Program (ICS 32)</h5>	
-						<p class="description">Othello is a two person - abstract strategy - board game where winner is determined by the player with the most tiles on the board. Used Tkinter library and implemented a graphical user interface.
+						<p class="description">Othello is a two person - abstract strategy - board game where winner is determined by the player with the most tiles on the board. Used Tkinter library and implemented a graphical user interface. 
 						</p>	
 						<div class = "tools-used">
 							<span class="tools-used-item">Python</span>
@@ -120,6 +136,7 @@
 						<h3><strong>Memory Allocator</strong></h3>
 						<h5>Course Program (ICS 53)</h5>	
 						<p class="description">Designed a memory allocator using heap - that will organize data as an implicit free list. Basic functions include allocate, free, blocklist, writeheap, printheap, printheader, and quit.
+						<br><br><a target = "_blank" href="https://github.com/brookedly/Principles-in-System-Design/tree/master/Lab1">View Project</a>
 						</p>	
 						<div class = "tools-used">
 							<span class="tools-used-item">C</span>
@@ -139,6 +156,7 @@
 						<h3><strong>Dungeon: Text Adventure Game</strong></h3>
 						<h5>Course Program (ICS 53)</h5>	
 						<p class="description">Simple text adventure game called Dungeon which takes in a file that describes the layout of the dungeon and how they are connected. As a player you may specify which direction to move and the console will or will not grant your request.
+						<br><br><a target = "_blank" href="https://github.com/brookedly/Principles-in-System-Design/tree/master/Lab2">View Project</a>
 						</p>	
 						<div class = "tools-used">
 							<span class="tools-used-item">C</span>
@@ -160,6 +178,7 @@
 						<h3><strong>50 Places to Eat in San Jose Before You Die</strong></h3>
 						<h5><em>Spoon University</em></h5>
 						<p class="description">Paying homage to my hometown San Jose, California - this is an ultimate guide to San Jose eateries organized from breakfast to dessert.
+						<br><br><a target = "_blank" href="https://spoonuniversity.com/place/the-50-best-places-to-eat-in-san-jose-for-every-meal">View Article</a>
 						</p>	
 					</div>
 				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>	
@@ -177,18 +196,16 @@
 						<h3><strong>7 Places to Eat Near UC Irvine for Under $10</strong></h3>
 						<h5><em>Spoon University</em></h5>
 						<p class="description">The key to delicious eats while on a college budget.
+						<br><br><a target = "_blank" href="https://spoonuniversity.com/place/7-best-lunches-around-uc-irvine-10-dollars">View Article</a>
 						</p>	
 					</div>
 				<div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
 			</div>
 		</div>
 
-		<div>
-			<i class="em em-point_up_2" onclick="topFunction()" id="scrollUp"></i>
-		</div>
 	</section>
 
-		<div id = "footer"> 
+		<!-- <div id = "footer"> 
 			<footer>
 					&copy; 2017 Brooke Ly
 					<div class = "content">
@@ -199,7 +216,14 @@
 						</span>
 					</div>
 			</footer>
-		</div>
+		</div> -->
+
+		<footer>
+            <p>&copy; 2017 Brooke Ly</p>
+          	<a target="_blank" href="mailto:lybrooke96@gmail.com" class="fa fa-envelope-o fa-lg" aria-hidden="true" style="margin-right: 10px;"></a> 
+            <a target="_blank" href="https://github.com/brookedly" class="fa fa-github fa-lg" aria-hidden="true" style="margin-right: 10px;"></a> 
+            <a target="_blank" href="https://www.linkedin.com/in/brooke-ly/" class="fa fa-linkedin fa-lg" aria-hidden="true" style="margin-right: 10px;"></a> 
+		</footer>
 	</div>
 
 
@@ -210,3 +234,6 @@
 <script src = "js/main.js"></script>
 </body>
 </html>
+
+
+<!-- https://teamtreehouse.com/community/forum-tip-create-a-sticky-navigation-with-css-and-jquery-2 -->
