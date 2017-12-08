@@ -40,7 +40,7 @@ header {
 .tagline {    
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.4em;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px;
 }
 
 .tagline-languages {
@@ -115,14 +115,59 @@ header {
 
 /* @Footer */
 
-footer { font-size: .8em; margin: 40px; color: #999; }
+/*footer { font-size: .8em; margin: 40px; color: #999; }
 footer .content { display: inline; float: right;}
 
 footer a { margin-left: 30px; color: #777; }
 
 footer a:visited { color: #777; }
-footer a:hover { color: #000; }
+footer a:hover { color: #000; }*/
 
+/*Footer as Icons*/ 
+footer {
+  background-color: grey;
+  color: white;
+  padding:20px 20px;
+  text-align: center;
+}
+
+footer a {
+  float: middle;
+}
+
+.fa {
+    color: white;
+}
+
+.fa-lg:hover {
+    transition: .5s;
+}
+
+.fa-github:hover {
+    color: #6e5494;
+}
+
+.fa-linkedin:hover {
+    color: #00a0dc;
+}
+
+.fa-envelope:hover {
+    color: #ea4335;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #db8585;
+    transition: all .35s linear;
+    -o-transition: all 0.35s linear; /* opera */
+    -ms-transition: all 0.35s linear; /* IE 10 */
+    -moz-transition: all 0.35s linear; /* Firefox */
+    -webkit-transition: all 0.35s linear; /*safari and chrome */
+}
+
+.downloadResume {
+  padding-bottom: 45px;
+}
 
 /* @Media Queries */
 @media screen and (max-width: 768px) and (min-width: 320px){
@@ -170,3 +215,5 @@ footer a:hover { color: #000; }
       font-size: 11px;
     }
 }
+
+
