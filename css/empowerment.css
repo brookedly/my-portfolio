@@ -78,7 +78,7 @@
 }
 
 /* @Footer */
-footer { 
+/*footer { 
   font-size: .8em; margin: 40px; color: #999; 
 }
 footer .content { 
@@ -96,7 +96,49 @@ footer a:visited {
 footer a:hover { 
   color: #000; 
 }
+*/
 
+/*Footer as Icons*/ 
+footer {
+  background-color: grey;
+  color: white;
+  padding:20px 20px;
+  text-align: center;
+}
+
+footer a {
+  float: middle;
+}
+
+.fa {
+    color: white;
+}
+
+.fa-lg:hover {
+    transition: .5s;
+}
+
+.fa-github:hover {
+    color: #6e5494;
+}
+
+.fa-linkedin:hover {
+    color: #00a0dc;
+}
+
+.fa-envelope:hover {
+    color: #ea4335;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #db8585;
+    transition: all .35s linear;
+    -o-transition: all 0.35s linear; /* opera */
+    -ms-transition: all 0.35s linear; /* IE 10 */
+    -moz-transition: all 0.35s linear; /* Firefox */
+    -webkit-transition: all 0.35s linear; /*safari and chrome */
+}
 
 
 /* --------------------------------------------------
@@ -230,3 +272,5 @@ footer a:hover {
         width: 505px;
     }
 }
+
+
